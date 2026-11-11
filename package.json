@@ -3,9 +3,18 @@
   "displayName": "Winc for VSCode",
   "description": "VSCode support for the Winc programming language.",
   "version": "0.0.1",
-  "repository": {"url": "https://github.com/wither16x/winc"},
+  "publisher": "wither16x",
+  "author": {
+    "name": "Wither__",
+    "url": "https://github.com/wither16x"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wither16x/winc"
+  },
   "engines": {
-    "vscode": "^1.145.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Programming Languages"
@@ -22,5 +31,8 @@
       "scopeName": "source.wc",
       "path": "./syntaxes/winc.tmLanguage.json"
     }]
-  }
+  },
+  "keywords": [
+    "winc"
+  ]
 }
