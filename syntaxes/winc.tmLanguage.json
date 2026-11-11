@@ -45,7 +45,7 @@
 			},
 			{
 				"name": "storage.modifier.winc",
-				"match": "\\b(pub|extern|const|unsigned|inline|volatile|static|noreturn|restrict)\\b"
+				"match": "\\b(pub|extern|const|unsigned|inline|volatile|static|noreturn|restrict|struct|union|signed|enum)\\b"
 			},
 			{
 				"name": "storage.type.winc",
